@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Jomolhari&family=Roboto");
+
+:lang(bo) {
+  font-family: Jomolhari, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:lang(en) {
+  font-family: Roboto, sans-serif;
+}
+
+.margin-y-1 {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.main-panel {
+  font-size: 200%;
+}
+
+.main-panel input[type="text"] {
+  font-size: 75% !important;
+}
+
+.left-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.right-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.round {
+  box-sizing: border-box;
+  width: 2.5em !important;
+  height: 2.5em !important;
+  border-radius: 80em !important;
+  text-align: center !important;
+  padding: 0 !important;
 }
